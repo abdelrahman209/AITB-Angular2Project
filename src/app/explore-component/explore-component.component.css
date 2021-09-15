@@ -1,0 +1,41 @@
+.services hr{
+    width: 20%;
+    border: 4px solid #ccc;
+}
+
+/*Explore Style*/
+.explore .row{
+    margin-left:65px;
+    margin-right:65px;
+}
+
+@media(max-width: 991.98px)
+{
+    .services hr{
+        width: 15%;
+      
+    }
+    .services .row{
+        text-align:center;
+    }
+    .services h2{
+        text-align:center;
+    }
+}
+@media(max-width: 791.98px)
+{
+    .explore .row{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .explore .card{
+        margin-top:12px;
+    }
+}
+@media (max-width: 1199.98px)
+{
+    .services .row{
+        margin-left:100px;
+        margin-right:100px;
+    }
+}
